@@ -1,9 +1,9 @@
-This forked repo used for my own built printer.
+# This forked repo used for my own built printer, called Clarity
 The printer was originally an Anet E10, now equipped with SKR Mini E3 v2.0 board, BMG direct drive extruder, E3D Volcano+V6 hotend, BLTouch, MGN9H linear rail on X.
 For the extruder I'm using my own designed mount: https://www.thingiverse.com/thing:4639302
 
 -------------
-# BIGTREETECH SKR Mini E3 V1.x and V2.x
+## BIGTREETECH SKR Mini E3 V1.x and V2.x
 
 BIGTREETECH SKR Mini E3 V1.x and V2.x mainboards are ultra-quiet, low-power, high-quality 3D printing machine controller boards from BIQU.
 

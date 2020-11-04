@@ -496,9 +496,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp 23.94
-    #define DEFAULT_Ki 1.78
-    #define DEFAULT_Kd 80.60
+    #define DEFAULT_Kp 24.50
+    #define DEFAULT_Ki 1.61
+    #define DEFAULT_Kd 93.28
   #endif
 #endif // PIDTEMP
 
@@ -989,11 +989,11 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 23.2, -36.4, -1.85 }
+#define NOZZLE_TO_PROBE_OFFSET { 23.2, -36.4, -2.35 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define PROBING_MARGIN 10
+#define PROBING_MARGIN 20
 
 // X and Y axis travel speed (mm/min) between probes
 #define XY_PROBE_SPEED (133*60)
@@ -1090,7 +1090,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR false
-#define INVERT_Y_DIR false
+#define INVERT_Y_DIR true
 #define INVERT_Z_DIR true
 
 // @section extruder
@@ -1130,7 +1130,7 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define Y_MIN_POS -27.5
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE

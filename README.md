@@ -1,5 +1,5 @@
 # This forked repo used for my own built printer, called Clarity
-The printer was originally an Anet E10, now equipped with SKR Mini E3 v2.0 board, BMG direct drive extruder, E3D Volcano+V6 hotend, BLTouch, MGN9H linear rail on X.
+The printer was originally an Anet E10, now equipped with SKR Mini E3 v2.0 board (with 512kB flash), BMG direct drive extruder, E3D Volcano+V6 hotend, BLTouch, MGN9H linear rail on X.
 For the extruder I'm using my own designed mount: https://www.thingiverse.com/thing:4639302
 
 -------------
